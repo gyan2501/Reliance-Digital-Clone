@@ -1,5 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
+import Admin from '../Pages/Admin'
 import Cart from '../Pages/Cart'
 import Checkout from '../Pages/Checkout'
 import EachProduct from '../Pages/EachProduct'
@@ -20,7 +21,6 @@ import Home from './Home'
 const AllRoutes = () => {
   return (
     <Routes>
-        <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/laptops' element={<Laptop/>}/>
         <Route path='/small_appliances' element={<SmallAppliances/>}/>
@@ -35,9 +35,8 @@ const AllRoutes = () => {
         <Route path='/checkout' element={<Checkout/>}/>
         <Route path='/payments' element={<Payments/>}/>
         <Route path='/final' element={<Final/>}/>
+        <Route path='/admin' element={<Admin/>}/>
         <Route path='/item/:id' element={<EachProduct/>}/>
-    </Routes>
-        
     </Routes>
   )
 }

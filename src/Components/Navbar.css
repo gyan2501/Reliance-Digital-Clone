@@ -63,7 +63,8 @@ line-height: 20px;
 }
 .box99:hover{
 display: block;
-cursor:pointer
+cursor:pointer;
+z-index: 1;
 }
 .box98:hover,.box97:hover,.box96:hover,.box95:hover,.box94:hover{
 background-color: #e42529;

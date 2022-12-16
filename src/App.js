@@ -1,14 +1,15 @@
-import "./App.css";
-import Navbar from "./Components/Navbar";
-import AllRoutes from "./Components/AllRoutes";
-import Footer from "./Components/Footer";
+import './App.css';
+import AllRoutes from './components/AllRoutes';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar style={{position:"sticky",zIndex:"100"}}  />
-      <AllRoutes />
-      <Footer />
+      <div style={{position:"sticky",top:"0",zIndex:1}}><Navbar/></div>
+      <AllRoutes/>
+      <Footer/>
     </div>
   );
 }

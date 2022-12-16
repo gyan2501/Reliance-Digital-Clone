@@ -1,8 +1,10 @@
 import React, { useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import { AppContext } from "../context/AppContext";
 import Banner from "./Banner";
+
 import Style from "./Home.module.css";
 import ProductSlide from "./ProductSlide";
 import ProductSlide2 from "./ProductSlide2";
@@ -37,8 +39,8 @@ const Home = () => {
         src="https://www.reliancedigital.in/medias/Year-End-Sale-5000-Instant-Discount-Carousel-Banner-05-12-2022.jpg?context=bWFzdGVyfGltYWdlc3wxNDcwODh8aW1hZ2UvanBlZ3xpbWFnZXMvaDkzL2hiNS85OTI4MTY1NTg5MDIyLmpwZ3w4NDk3ZDFhZTM1YzUxYTg3MDFiMWZkZjhmMGE0ZWI2ZWZmYjU0MWNmOGJkMTAzZTYwMTdlNjI5MGNjYzZiOTIx"
         alt="banner"
       />
-      <Banner list={images} />
-      {/* <Carousel1  />  */}
+      <Banner list={images}/>
+       {/* <Carousel1  />  */}
       <br />
       <div style={{ display: "flex", alignItems: "baseline" }}>
         <h1 className={Style.zz}>SMARTWATCHES AT NEVER BEFORE PRICES |</h1>
@@ -93,8 +95,7 @@ const Home = () => {
           <img src={e} alt="no" />
         ))}
       </div>
-      <br />
-      <br />
+      <br /><br />
       <div style={{ display: "flex", alignItems: "baseline" }}>
         <h1 className={Style.zz}>LOWEST PRICES ON SMALL APPLIANCES |</h1>
         <br />
@@ -124,11 +125,33 @@ const Home = () => {
         ))}
       </div>
       <br />
-
+      {/* <br />
+      <h1 className={Style.zz}>GREAT DEALS ON ELECTRONICS</h1>
+      <br />
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(4,1fr)",
+          width: "95%",
+          margin: "auto",
+          gap:"25px"
+        }}
+      >
+        {addItems4.map((e) => (
+          <img src={e} alt="no" />
+        ))}
+      </div> */}
       <Banner list={addItems5} />
       <hr />
-
       <br />
+      {/* <br />
+      <h1 className={Style.zy}>EXPLORE OUR RANGE OF PRODUCTS</h1>
+      <br />
+      <div style={{ width: "95%", margin: "auto" }}>
+        <ProductSlide2 list={addItems6} number={5} />{" "}
+      </div>
+      <br /> */}
+
       <h1 className={Style.zy} style={{ color: "#1f4985" }}>
         THE RELIANCE DIGITAL BRAND PROMISE
       </h1>
@@ -167,8 +190,27 @@ const Home = () => {
       <hr />
       <br />
 
+      {/* <div style={{ display: "flex", alignItems: "baseline" }}>
+        <h1 className={Style.zz}>SMARTWATCHES AT NEVER BEFORE PRICES |</h1>
+        <br />
+        <h1 className={Style.zr} onClick={() => navigate("/smartwatches")}>
+          VIEW ALL
+        </h1>
+      </div>
+      <br /> */}
+      {/* <div style={{ display: "flex", justifyContent: "space-around" }}>
+        <div>
+          <img
+            style={{ height: "350px" }}
+            src="https://www.reliancedigital.in/medias/Smartwatches-at-NEVER-before-prices.jpg?context=bWFzdGVyfGltYWdlc3w5NjczNHxpbWFnZS9qcGVnfGltYWdlcy9oYmYvaGZiLzk4NjAwNjU5NTE3NzQuanBnfGMwMmUwNTdhMzY1NDBmNjk3ZWJiZmNiMTBkZGRhOGZjNTYxNjgxMTQ4YjllYjhjYjRiZTAxYTU5MWUyMWNiZWE"
+            alt="no"
+          />
+        </div>
+        <div style={{ width: "70%" }}>
+          <ProductSlide list={addItems8} number={4} />
+        </div>
+      </div> */}
       
-
       <br />
       <div style={{ display: "flex", alignItems: "baseline" }}>
         <h1 className={Style.zz}>TRENDING IN TELEVISIONS |</h1>
