@@ -42,7 +42,7 @@ const Footer = () => {
               display: "flex",
               width: "70px",
               justifyContent: "space-between",
-              marginTop:"12px"
+              marginTop: "12px",
             }}
           >
             <i class="fa-brands fa-facebook-square"></i>

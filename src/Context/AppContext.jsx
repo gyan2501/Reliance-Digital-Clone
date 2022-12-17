@@ -241,7 +241,7 @@ let addItems2 = [
     name: "BPL-BBT001MLC-Beard-Trimmer-491903144",
     price: 1099,
     offer: 2900,
-    save: 10,
+    save: 18,
     id: 19,
     qty: 0,
   },
@@ -981,8 +981,6 @@ let addItems11 = [
   },
 ];
 
-
-
 const bigarr = [
   ...addItems1,
   ...addItems2,
@@ -1003,7 +1001,6 @@ export const AppContextProvider = ({ children }) => {
   const [lastName, setlastName] = useState("");
   const [email, setemail] = useState("");
   const [search, setsearch] = useState("");
-  const [pincode, setPincode] = useState("");
   const [car, setCar] = useState(0);
   const [total, settotal] = useState(0);
 

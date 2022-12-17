@@ -167,8 +167,6 @@ const Home = () => {
       <hr />
       <br />
 
-      
-
       <br />
       <div style={{ display: "flex", alignItems: "baseline" }}>
         <h1 className={Style.zz}>TRENDING IN TELEVISIONS |</h1>

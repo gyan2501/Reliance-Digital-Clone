@@ -1,20 +1,17 @@
 .main_menu {
   position: relative;
-  /* display: inline-block; */
-   border: 1px solid black; 
+  border: 1px solid black;
   margin-left: 20px;
   width: max-content;
-   
 }
-.main_menu:hover{
+.main_menu:hover {
   background-color: #e42529;
 }
-.menu-btn{
+.menu-btn {
   text-decoration: none;
-  /* color: grey; */
+
   font-size: 14px;
   font-weight: bold;
-  /* border: 1px solid red; */
 }
 .xyz {
   display: none;
@@ -27,8 +24,7 @@
   text-align: left;
   background-color: #003380;
   font-size: 14px;
-  
-  }
+}
 
 ul {
   list-style-type: none;
@@ -41,49 +37,50 @@ ul {
 
 .main_menu:hover .xyz {
   display: block;
-  
+
   width: 1000px;
 }
 
-.box99{
-display: none;
-position: fixed;
-/* top: 17%; */
-padding: 20px;
-margin-top: 30px;
-left: 2%;
-width:95%;
-background-color: #003380;
-color: white;
-height: 400px;
-font-size: 16px;
-line-height: 20px;
-
-
+.box99 {
+  display: none;
+  position: fixed;
+  /* top: 17%; */
+  padding: 20px;
+  margin-top: 30px;
+  left: 2%;
+  width: 95%;
+  background-color: #003380;
+  color: white;
+  height: 400px;
+  font-size: 16px;
+  line-height: 20px;
 }
-.box99:hover{
-display: block;
-cursor:pointer;
-z-index: 1;
+.box99:hover {
+  display: block;
+  cursor: pointer;
+  z-index: 1;
 }
-.box98:hover,.box97:hover,.box96:hover,.box95:hover,.box94:hover{
-background-color: #e42529;
+.box98:hover,
+.box97:hover,
+.box96:hover,
+.box95:hover,
+.box94:hover {
+  background-color: #e42529;
 }
-.box98:hover+div{
-display: block;
-
+.box98:hover + div {
+  display: block;
 }
-.box97:hover+div{
-display: block;
+.box97:hover + div {
+  display: block;
 }
-.box96:hover+div{
-display: block;
+.box96:hover + div {
+  display: block;
 }
-.box95:hover+div{
-display: block;
+.box95:hover + div {
+  display: block;
 }
-.box94:hover+div{
-display: block;
+.box94:hover + div {
+  display: block;
 }
 .each-slide-effect > div {
   display: flex;

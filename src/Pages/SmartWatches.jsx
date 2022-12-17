@@ -6,19 +6,13 @@ import {
   BreadcrumbLink,
   Button,
   Checkbox,
-  Container,
   Flex,
-  Grid,
-  GridItem,
   Heading,
-  Image,
   Input,
   RangeSlider,
   RangeSliderFilledTrack,
   RangeSliderThumb,
   RangeSliderTrack,
-  Spacer,
-  StackDivider,
   Text,
   VStack,
 } from "@chakra-ui/react";
@@ -76,7 +70,7 @@ const SmartWatches = () => {
             </BreadcrumbLink>{" "}
           </BreadcrumbItem>
           <BreadcrumbItem isCurrentPage>
-            <BreadcrumbLink href="#" >Search</BreadcrumbLink>
+            <BreadcrumbLink href="#">Search</BreadcrumbLink>
           </BreadcrumbItem>
         </Breadcrumb>
       </Flex>
@@ -236,7 +230,6 @@ const SmartWatches = () => {
               <Box border={"1px solid #D3D3D3"} padding="0px 10px 0px 10px">
                 Brand: {brand1.length === 0 ? "All" : brand1}
               </Box>
-              
             </Flex>
           </Flex>
           <Box>
