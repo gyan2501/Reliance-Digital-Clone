@@ -16,12 +16,12 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
-import React, { useContext, useEffect, useReducer, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { AppContext } from "../context/AppContext";
 import Grid1 from "./Grid1";
-import { reducer } from "../components/reducer";
+
 const SmartWatches = () => {
-  const { addItems8, inlove } = useContext(AppContext);
+  const { addItems8 } = useContext(AppContext);
   const handle = (e) => {
     let [l, r] = e;
     let left = l * 200 + 26999;
@@ -51,7 +51,7 @@ const SmartWatches = () => {
     }
   };
 
-  const [state, dispatch] = useReducer(reducer, inlove);
+  // const [state, dispatch] = useReducer(reducer, inlove);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

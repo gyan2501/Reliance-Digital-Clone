@@ -118,7 +118,7 @@ const Checkout = () => {
               <Modal isOpen={isOpen} onClose={onClose}>
                 <ModalOverlay />
                 <ModalContent>
-                  <ModalHeader>Modal Title</ModalHeader>
+                  <ModalHeader>Add Address</ModalHeader>
                   <ModalCloseButton />
                   <ModalBody>
                     <Flex flexDirection="column" gap="1rem">
@@ -175,11 +175,11 @@ const Checkout = () => {
                   </ModalBody>
 
                   <ModalFooter>
-                    <Button colorScheme="blue" mr={3} onClick={onClose}>
+                    <Button colorScheme="red" mr={3} onClick={onClose}>
                       Cancel
                     </Button>
                     <Button
-                      variant="ghost"
+                     colorScheme="blue"
                       onClick={() => {
                         handleAddress();
                         if (

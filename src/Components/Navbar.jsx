@@ -14,16 +14,14 @@ import {
   ModalFooter,
   ModalBody,
   ModalCloseButton,
-  useDisclosure,
   FormControl,
   FormLabel,
   Checkbox,
+  useDisclosure,
 } from "@chakra-ui/react";
 import React, { useContext, useState } from "react";
-
 import { Link, useNavigate } from "react-router-dom";
 import "./Navbar.css";
-
 import { AppContext } from "../context/AppContext";
 import searchicon from "./searchicon.svg";
 
@@ -340,7 +338,6 @@ const Navbar = () => {
               <Box onClick={onOpen} cursor="pointer">
                 | Admin Login
               </Box>
-
               <Modal isOpen={isOpen} onClose={onClose}>
                 <ModalOverlay />
                 <ModalContent>
