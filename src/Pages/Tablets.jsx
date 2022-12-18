@@ -6,27 +6,24 @@ import {
   BreadcrumbLink,
   Button,
   Checkbox,
- 
   Flex,
-  
   Input,
   RangeSlider,
   RangeSliderFilledTrack,
   RangeSliderThumb,
   RangeSliderTrack,
- 
   StackDivider,
   Text,
   VStack,
 } from "@chakra-ui/react";
-import React, { useContext, useEffect, useReducer, useState } from "react";
+import React, { useContext, useEffect,  useState } from "react";
 import { AppContext } from "../context/AppContext";
 // import Style from "../components/Home.module.css";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Grid1 from "./Grid1";
-import { reducer } from "../components/reducer";
+// import { reducer } from "../components/reducer";
 const Tablets = () => {
-  const { addItems10, inlove } = useContext(AppContext);
+  const { addItems10 } = useContext(AppContext);
   const handle = (e) => {
     let [l, r] = e;
     let left = l * 200 + 26999;
@@ -56,7 +53,7 @@ const Tablets = () => {
     }
   };
 
-  const [state, dispatch] = useReducer(reducer, inlove);
+  // const [state, dispatch] = useReducer(reducer, inlove);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

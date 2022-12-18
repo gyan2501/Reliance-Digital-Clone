@@ -1,15 +1,11 @@
 import {
   Box,
-  
   Checkbox,
- 
   Flex,
   Grid,
   GridItem,
   Image,
- 
   Text,
-
 } from "@chakra-ui/react";
 // import React, { useContext, useState } from "react";
 import Style from "../components/Home.module.css";
@@ -24,6 +20,7 @@ const Grid1 = ({ list1 }) => {
           border={"1px solid #D3D3D3"}
           className={Style.q22}
           onClick={() => navigate(`/item/${e.id}`)}
+          key={e.id}
         >
           <Box boxSize="180px">
             <Image src={e.image} alt="Dan Abramov" />

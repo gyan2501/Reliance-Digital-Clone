@@ -77,12 +77,12 @@ const ProductSlide = ({ list, number }) => {
                   <div style={{ display: "flex" }}>
                     <p>M.R.P :</p>{" "}
                     <p style={{ textDecoration: "line-through" }}>
-                      ₹{el.offer}
+                      ₹{+el.offer}
                     </p>
                   </div>
                   <div style={{ display: "flex" }}>
                     <p>You Save {el.save}%</p>
-                    <p>(₹{(el.offer * el.save) / 100})</p>
+                    <p>(₹{+(el.offer * el.save) / 100})</p>
                   </div>
                   <button className={Style.b1}>OFFERS AVAILABLE</button>
                 </div>

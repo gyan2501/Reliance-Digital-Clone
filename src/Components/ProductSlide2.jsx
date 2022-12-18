@@ -53,6 +53,7 @@ const ProductSlide2 = ({ list, number }) => {
               className="each-slide"
               id={Style.w1}
               onClick={() => navigate(el.link)}
+              
             >
               <div className={Style.q2} id={Style.t}>
                 <img
