@@ -37,7 +37,7 @@ Joyfull-Unit-3955
 Search for items by name or brand
 <br/><br/>
 <div width="100%">
-<img width="70%" margin="auto" src="./screenshots/search.png"/>
+<img  src="./screenshots/search.png"/>
 </div>
 <br/><br/>
 
@@ -52,7 +52,7 @@ Apply filters using sliders and checkboxes
 Checkout
 <br/><br/>
 <div width="100%">
-<img width="70%" margin="auto" src="./screenshots/checkout.png"/>
+<img  src="./screenshots/checkout.png"/>
 </div>
 
 
