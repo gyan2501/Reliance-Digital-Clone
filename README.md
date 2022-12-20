@@ -43,7 +43,7 @@ Search for items by name or brand
 
 Apply filters using sliders and checkboxes
 <br/><br/>
-<img  src="./screenshot/filter.png"/>
+<img  src="./screenshots/filter.png"/>
 </div>
 <br/><br/>
 
