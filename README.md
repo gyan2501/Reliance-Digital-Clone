@@ -41,20 +41,18 @@ Search for items by name or brand
 </div>
 <br/><br/>
 
-Apply filters using sliders and checkboxes
-<br/><br/>
-<img  src="./screenshots/filter.png"/>
-</div>
-<br/><br/>
-
-<br/><br/>
 
 Checkout
 <br/><br/>
 <div width="100%">
 <img  src="./screenshots/checkout.png"/>
 </div>
-
+<br/><br/>
+Apply filters using sliders and checkboxes
+<br/><br/>
+<img  src="./screenshots/filter.png"/>
+</div>
+<br/><br/>
 
 
 
