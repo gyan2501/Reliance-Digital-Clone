@@ -33,12 +33,14 @@ Joyfull-Unit-3955
 
 <br/>
 <h2 >✨ FUNCTIONALITIES ✨</h2>
+
 Search for items by name or brand
 <br/><br/>
 <div width="100%">
 <img width="70%" margin="auto" src="./screenshots/search.png"/>
 </div>
 <br/><br/>
+
 Apply filters using sliders and checkboxes
 <br/><br/>
 <img  src="./screenshot/filter.png"/>
@@ -46,6 +48,7 @@ Apply filters using sliders and checkboxes
 <br/><br/>
 
 <br/><br/>
+
 Checkout
 <br/><br/>
 <div width="100%">
