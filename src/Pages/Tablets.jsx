@@ -17,7 +17,7 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import React, { useContext, useEffect,  useState } from "react";
-import { AppContext } from "../context/AppContext";
+import { AppContext } from "../Context/AppContext";
 // import Style from "../components/Home.module.css";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Grid1 from "./Grid1";
