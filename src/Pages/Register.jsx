@@ -1,7 +1,7 @@
 import React, { useContext, useRef, useState } from "react";
 import { Box, Input, Button, Text, Flex, useToast } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
-import { AppContext } from "../context/AppContext";
+import { AppContext } from "../Context/AppContext";
 
 const Register = () => {
   const navigate = useNavigate();

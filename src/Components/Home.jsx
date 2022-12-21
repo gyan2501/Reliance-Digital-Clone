@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "react-slideshow-image/dist/styles.css";
-import { AppContext } from "../context/AppContext";
+import { AppContext } from "../Context/AppContext";
 import Banner from "./Banner";
 
 import Style from "./Home.module.css";

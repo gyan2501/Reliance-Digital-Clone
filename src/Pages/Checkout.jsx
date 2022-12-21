@@ -21,7 +21,7 @@ import {
 } from "@chakra-ui/react";
 import React, { useContext, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { AppContext } from "../context/AppContext";
+import { AppContext } from "../Context/AppContext";
 
 const Checkout = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();

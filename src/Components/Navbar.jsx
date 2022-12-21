@@ -22,7 +22,7 @@ import {
 import React, { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./Navbar.css";
-import { AppContext } from "../context/AppContext";
+import { AppContext } from "../Context/AppContext";
 import searchicon from "./searchicon.svg";
 
 const Navbar = () => {

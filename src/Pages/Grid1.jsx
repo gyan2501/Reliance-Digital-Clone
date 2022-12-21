@@ -8,7 +8,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 // import React, { useContext, useState } from "react";
-import Style from "../components/Home.module.css";
+import Style from "../Components/Home.module.css";
 import { useNavigate } from "react-router-dom";
 
 const Grid1 = ({ list1 }) => {

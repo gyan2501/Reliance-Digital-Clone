@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useRef } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { AppContext } from "../context/AppContext";
+import { AppContext } from "../Context/AppContext";
 import {
   UnorderedList,
   ListItem,
